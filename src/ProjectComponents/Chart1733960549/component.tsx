@@ -80,7 +80,7 @@ const transformData = (
 };
 
 const ChartComponent: React.FC<ChartProps> = ({ chartConfig }) => {
-    const { gwApiHandler } = MakeInfinite.useProject();
+    const { gwAPIHandler } = MakeInfinite.useProject();
     const [options, setOptions] = React.useState<EChartsOption | null>(null);
     const [loading, setLoading] = React.useState<boolean>(true);
     const [error, setError] = React.useState<string | null>(null);
@@ -91,7 +91,7 @@ const ChartComponent: React.FC<ChartProps> = ({ chartConfig }) => {
                 setLoading(true);
                 setError(null);
 
-                const dataset = await fetchDataset(gwApiHandler, chartConfig.query_id);
+                const dataset = await fetchDataset(gwAPIHandler, chartConfig.query_id);
 
                 // Transform the data if needed
                 const graphType = chartConfig.graph_type;
