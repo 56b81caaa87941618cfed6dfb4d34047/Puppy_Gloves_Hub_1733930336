@@ -148,7 +148,7 @@ const ChartComponent: React.FC<ChartProps> = ({ chartConfig }) => {
 
     return (
         <div className="w-full h-full">
-            <ReactECharts
+            <window.ReactECharts
                 option={options}
                 style={{ height: '400px', width: '100%' }}
                 opts={{ renderer: 'canvas' }}
