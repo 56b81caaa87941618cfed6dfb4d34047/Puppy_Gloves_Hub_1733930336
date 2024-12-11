@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "PawProtect",
+        "HERO_HEADING_TEXT": "Cozy Comfort for Playful Paws",
+        "HERO_SUBHEADING_TEXT": "Discover our adorable and durable puppy gloves, designed to keep your furry friend's paws warm and protected during outdoor adventures.",
+        "FOOTER_TEXT": "\u00a9 2023 PawProtect. Keeping puppy paws happy and safe, one glove at a time."
+    }
+}
